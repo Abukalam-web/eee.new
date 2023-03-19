@@ -140,4 +140,8 @@
     justify-content: center;
     align-items: center;
     color: lightblue;
+   
+}
+#typing-text{
+    font-size: 60px;
 }
