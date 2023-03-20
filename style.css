@@ -135,7 +135,7 @@
 /* navbar ends */
 .body-text{
     width: 100%;
-    height: 94vh;
+    height: 96vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,5 +143,23 @@
    
 }
 #typing-text{
-    font-size: 60px;
+    font-size: 100px;
+    font-family: var(--navFonts);
+}
+.body-text h1{
+    text-align: center;
+}
+
+/* section -02 er css shuru akhan theke */
+.section-02{
+    width: 100%;
+    height: 100vh;
+    
+}
+.payment-title{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: var(--navFonts);
+    font-size: 50px;
+    color: purple;
 }
