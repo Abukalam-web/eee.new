@@ -13,11 +13,11 @@
 
 }
 ::-webkit-scrollbar{
-    width: 9px;
+    width: 6px;
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb{
-    background-image: linear-gradient(lightblue,red);
+    background-image: linear-gradient(transparent, #34495e,#2ecc71,red);
     border-radius: 40px;
    
 }
@@ -156,7 +156,7 @@
 /* section -02 er css shuru akhan theke */
 .section-02{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #181E25;
     position: relative;
 
@@ -168,35 +168,30 @@
     font-family: var(--navFonts);
     font-size: 50px;
     color: white;
+    text-shadow: 1px 2px 10px #2ecc71 ;
 }
-.box-form::before{
+/* .box-form::before{
     content: '';
     position: absolute;
-    top: 80px;
-    left: 30px;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    width: 100%;
+    height: 100vh;
     background-color: #FFE53B;
     background-image: linear-gradient(114deg, #FFE53B 0%, #FF2525 74%);
-    clip-path: circle(100% at 10% 20%);
+    clip-path: circle(10% at 0% 20%);
 
 }
 .box-form::after{
     content: '';
     position: absolute;
-    bottom: 0px;
-    right: 60px;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    width: 100%;
+    height: 100vh;
     background-color: #FF3CAC;
     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 
-    clip-path: circle(100% at 10% 20%);
+    clip-path: circle(10% at 10% 20%);
 
-}
-.form-box{
+} */
+/* .form-box{
     width: 80%;
     height: 420px;
     background-color: rgba(255, 255, 255, 0.2);
@@ -258,4 +253,57 @@ select{
     -2px 4px 70px #2ecc71,
     2px -4px 70px #2ecc71,
     -2px -4px 70px #2ecc71;
+} */
+
+.box-form{
+    width: 100%;
+    height: 100vh;
+    background: #181E25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data-form-box{
+    width: 90%;
+    height: 450px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    box-shadow: 2px 5px 100px #C850C0;
+    
+}
+
+.form-title{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: var(--navFonts);
+    padding: 20px;
+}
+.clo-1 , .clo-2{
+    width: 49%;
+    /* border: 1px solid red; */
+    margin: 4px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.row-form input{
+ width: 100%;
+ border: none;
+ outline: none;
+ border-radius: 2px;
+ height: 30px;
+ padding-left: 30px;
+ background-color: #34495e;
+ color: white;
+}
+.row-form select{
+    width: 100%;
+    height: 30px;
+    background-color: #34495e;
+    color: white;
 }
