@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Serif+Lao&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Noto+Serif+Lao&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Exo+2:wght@300&family=Noto+Serif+Lao&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Exo+2:wght@300&family=Poppins:wght@300&display=swap');
 
 
 
@@ -9,6 +10,8 @@
 --navFonts : 'Fredoka One', serif;
 --navItemFont : 'Exo 2', sans-serif;
 --fonts01 :'Alegreya Sans', sans-serif;
+--popins : 'Poppins', sans-serif;
+
 
 
 }
@@ -357,4 +360,137 @@ select{
     background-color: #181E25;
     position: relative;
     padding-bottom: 40px;
+}
+
+/* scetion -03 er css code shuru hbe akhan theke */
+.section-03{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #181E25,#C850C0);
+    position: relative;
+}
+
+.event-title{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: var(--popins);
+    text-align: center;
+    text-shadow: 2px 2px 12px #C850C0;
+    margin-bottom: 100px;
+}
+.event-title::first-letter{
+    font-size: 50px;
+    color: #C850C0;
+    
+}
+.line-01{
+    display: flex;
+}
+.dot-main-div{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.dot{
+    width: 8px ;
+    height: 8px;
+    border-radius: 50%;
+    background: #34495e;
+    margin: 2px;
+    /* animation-name: forDot;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+}
+@keyframes forDot{
+    0%{
+        background-color: #C850C0;
+    }
+    100%{
+        background-color: #2ecc71;
+    }
+}
+
+.dot1{
+    animation-name: forDot;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.dot2{
+    animation-name: forDot;
+    animation-duration: 2s;
+    animation-delay: 0.4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.dot3{
+    animation-name: forDot;
+    animation-duration: 2s;
+    animation-delay: 0.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.dot4{
+    animation-name: forDot;
+    animation-duration: 2s;
+    animation-delay: 1.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.dot5{
+    animation-name: forDot;
+    animation-duration: 2s;
+    animation-delay: 1.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.dot6{
+    animation-name: forDot;
+    animation-duration: 2s;
+    animation-delay: 1.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.col-s-3{
+    width: 23.6%;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 4px 15px #16a085;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-shadow: 2px 2px 12px #C850C0;
+}
+
+.dot-main-div2{
+    position: absolute;
+    bottom: 30px ;
+    right: 0;
+}
+.dot-main-div3{
+    position: absolute;
+   top: 100px;
+   left: 1px;
+}
+.dot-main-div4{
+    position: absolute;
+    bottom: 3px ;
+    right: 0;
+}
+
+.section-04{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( #c850c0,red);
 }

@@ -31,6 +31,15 @@
         font-size: 50px;
         font-family: var(--navFonts);
     }
+    .payment-title {
+        text-align: center;
+        text-transform: capitalize;
+        font-family: var(--navFonts);
+        font-size: 50px;
+        margin-bottom: 101px;
+        color: white;
+        text-shadow: 1px 2px 10px #2ecc71;
+    }
 }
 @media only screen and (max-width: 1000px) {
     .data-form-box {
@@ -140,11 +149,87 @@
 
 
 
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (max-width: 400px) {
+    .payment-title {
+        text-align: center;
+        text-transform: capitalize;
+        font-family: var(--navFonts);
+        font-size: 50px;
+        margin-bottom: 101px;
+        color: white;
+        text-shadow: 1px 2px 10px #2ecc71;
+    }
+    .box-form {
+        width: 100%;
+        height: 940px;
+        background: #181E25;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 90px;
+    }
+    .event-title {
+        padding-top: 78px;
+        color: white;
+        font-size: 40px;
+        letter-spacing: 2px;
+        font-family: var(--popins);
+        text-align: center;
+        text-shadow: 2px 2px 12px #C850C0;
+        margin-bottom: 54px;
+       
+    }
+    .dot-main-div {
+        position: absolute;
+        top: -14px;
+        left: 4px;
+    }
+
+    .col-s-3 {
+        width: 43.6%;
+        height: 93px;
+        /* border: 1px solid red; */
+        margin: auto;
+        margin-bottom: 23px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 15px #16a085;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-transform: capitalize;
+        font-size: 20px;
+        text-shadow: 2px 2px 12px #C850C0;
+    }
 }
 @media only screen and (max-width: 600px) {
     
+    .dot-main-div {
+        position: absolute;
+        top: -100px;
+        left: 10px;
+    }
+
+    .col-s-3 {
+        width: 46.6%;
+        height: 140px;
+        /* border: 1px solid red; */
+        margin: auto;
+        margin-bottom: 27px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 15px #16a085;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-transform: capitalize;
+        font-size: 20px;
+        text-shadow: 2px 2px 12px #C850C0;
+    }
+
+    .event-row-02{
+        margin-top: -30px;
+    }
 }
 @media only screen and (max-width: 600px) {
     
