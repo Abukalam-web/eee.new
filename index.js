@@ -1,6 +1,6 @@
 
 const text = "Electrical And Electronic Engineering";
-const typespped  = 200 ;
+const typespped  = 100 ;
 let i = 0 ;
 
 
