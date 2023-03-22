@@ -497,10 +497,9 @@ select{
 .section-04{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient( #c850c0,red);
+    background-image: linear-gradient(to bottom, #c850c0, #aa54bf, #8c56ba, #6e57b2, #5155a7, #3e61af, #266db5, #0077b8, #0094cd, #00b1da, #00cee0, #2ae9e0);
+
 }
-
-
 
 .sec-3-c-1, .sec-3-c-1{
     width: 49%;
