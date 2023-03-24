@@ -584,6 +584,16 @@ select{
     color: #0A203E;
     font-family: var(--popins);
 }
+.event-title {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: var(--popins);
+    text-align: center;
+    text-shadow: 2px 2px 12px #C850C0;
+    margin-bottom: 100px;
+    padding-top: 40px;
+}
 .chairman img{
     width: 90px;
     height: 110px;
