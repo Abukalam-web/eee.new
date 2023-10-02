@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-md-3{
+    width: 22%;
+    height: 200px;
+    border: 1 px solid grey;
+}
